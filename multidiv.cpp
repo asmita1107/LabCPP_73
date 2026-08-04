@@ -1,7 +1,8 @@
 #include<iostream>
+using namespace std;
 namespace Asmita
 {
-    int product(int a,int b)
+    int mul(int a,int b)
      {
         return a*b;
      }
