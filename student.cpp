@@ -27,7 +27,7 @@ class Student{
 
 int main(){
     Student s,s1,s2;
-    s.inputDetails();
+    s1.inputDetails();
     s.rollno=100;
     s.displayDetails();
     return 0;
