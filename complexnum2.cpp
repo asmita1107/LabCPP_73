@@ -8,9 +8,12 @@ class Complex{
     public:
      Complex(int r=0,int i=0):real(r),imag(i){}
 
-     Complex add(const Complex &c){
-      return Complex(real+c.real,imag+c.imag);
+     int add(Complex c1){
+        real=real+c1.real;
+        imag=imag+c1.imag;
+        return 0;
      }
+
      Complex subtract(const Complex &c){
         return Complex(real-c.real,imag-c.imag);
      }
