@@ -7,7 +7,6 @@ private:
 
 public:
  Time(int h = 0, int m = 0) : hour(h), minute(m) {}
-
  Time add(const Time &t) {
   int totalMinutes = hour * 60 + minute + t.hour * 60 + t.minute;
   

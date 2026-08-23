@@ -24,7 +24,11 @@ public:
   Time t3;
   t3.hour = t1.hour - t2.hour;
   t3.minute = t1.minute - t2.minute;
-  return t3;
+  if(t3.minute < 0) {
+    t3.hour--;
+    t3.minute += 60;
+}
+   return t3;
 }
 
  void display() const {
