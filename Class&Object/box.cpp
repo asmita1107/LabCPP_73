@@ -8,41 +8,41 @@ class Box
  public:
     Box()
     {
-        length = 1;
-        width = 1;
-        height = 1;
+     length = 1;
+     width = 1;
+     height = 1;
     }
 
     Box(float l, float w, float h)
     {
-        length = l;
-        width = w;
-        height = h;
+     length = l;
+     width = w;
+     height = h;
     }
 
     Box(const Box &b)
     {
-        length = b.length;
-        width = b.width;
-        height = b.height;
+     length = b.length;
+     width = b.width;
+     height = b.height;
     }
 
     float volume()
     {
-        return length * width * height;
+     return length * width * height;
     }
 
     void display()
     {
-        cout << "Length  : " << length << endl;
-        cout << "Width   : " << width << endl;
-        cout << "Height  : " << height << endl;
-        cout << "Volume  : " << volume() << endl;
+     cout << "Length  : " << length << endl;
+     cout << "Width   : " << width << endl;
+     cout << "Height  : " << height << endl;
+     cout << "Volume  : " << volume() << endl;
     }
 
     ~Box()
     {
-        cout << "Box object is destroyed." << endl;
+     cout << "Box object is destroyed." << endl;
     }
 };
 
