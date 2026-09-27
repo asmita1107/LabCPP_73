@@ -21,7 +21,7 @@ class Student
         cout<<"\n--------------------";
         cout<<"\n*********** Student Marklist ***********";
         cout<<"\n--------------------";
-        cout<<"\n Roll No. :<<roll;
+        cout<<"\n Roll No. :"<<roll;
         cout<<"\n Student Name :"<<name<<endl;
     }
 };
@@ -81,7 +81,7 @@ cin>>cnt;
 for(i=0;i<cnt;i++)
 {
 str.accept_data();
-str.display();
+str.display_data();
 str.calculate();
 }
 return 0;
