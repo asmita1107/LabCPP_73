@@ -7,8 +7,7 @@ class Student
     int roll;
     char name[25];
 
-    private: //void Student::getdata() is private within this context
-             //void Student::putdata() is private within this context
+    protected: //protected members remains protected in both child classes
     void getdata()
     {
         cout<<"\n---------------------";
