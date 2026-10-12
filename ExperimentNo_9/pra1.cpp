@@ -8,19 +8,19 @@ public:
 class Car : public Vehicle {
 public:
   void start() override {
-        cout << "Car starts with a key" << endl;
+     cout << "Car starts with a key" << endl;
   }
   void stop() override {
-        cout << "Car stops" << endl;
+     cout << "Car stops" << endl;
   }
 };
 class Bike : public Vehicle {
 public:
   void start() override {
-        cout << "Bike starts with a button" << endl;
+     cout << "Bike starts with a button" << endl;
  }
   void stop() override {
-        cout << "Bike stops" << endl;
+     cout << "Bike stops" << endl;
   }
 };
 int main() {
